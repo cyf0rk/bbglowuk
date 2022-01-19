@@ -191,9 +191,9 @@
 
   .banner:not(.banner--mobile-bottom) .banner__box {
     background-color: transparent;
-    --color-foreground: 255, 255, 255;
-    --color-button: 255, 255, 255;
-    --color-button-text: 0, 0, 0;
+    --color-foreground: 0, 0, 0;
+    --color-button: 80, 80, 80;
+    --color-button-text: 255, 255, 255;
   }
 
   .banner:not(.banner--mobile-bottom) .button--secondary {
@@ -304,7 +304,7 @@
 
 .banner__box {
   border: 0;
-  padding: 4rem 3.5rem;
+  padding: 1rem 1rem;
   position: relative;
   height: fit-content;
   align-items: center;
@@ -378,7 +378,6 @@
     padding: 5rem;
     width: auto;
     max-width: 71rem;
-    min-width: 45rem;
   }
 }
 
