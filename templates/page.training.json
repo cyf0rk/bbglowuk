@@ -4,9 +4,27 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "1647288581aa4c2e53": {
+      "type": "dropdown-text",
+      "blocks": {
+        "164728858105fe449d-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164728858105fe449d-0"
+      ],
+      "settings": {
+        "dropdown": "Online Training - £2999"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1647288581aa4c2e53"
   ]
 }
