@@ -4,9 +4,27 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "1647287531e2b7a788": {
+      "type": "dropdown-text",
+      "blocks": {
+        "164728753189f627fc-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Training features a slide show and in depth video explanations and tutorials along with a step by step demonstration video on the procedure process. A 40 question multiple choice quiz for assessment & and a follow up phone call to answer any questions.<br\/><br\/>Additionally you will gain access to our PRO Store, product discounts and our BB Glow support group.<br\/><br\/>BB Glow Australia certificate included.<br\/>The program covers a comprehensive overview of the Mesotherapy & BB Glow process and products. Including basic skin anatomy, BB Blush, BB Lips & more.<\/p><p>Included BB Glow Training Kit valued at over $1000 dollars including:<br\/>1 KRX photo pen<br\/>1 MTS prep set<br\/>100 repair creams<br\/>10 BB Glow ampoules<br\/>2 CC Blush<br\/>5 Booster ampoules<br\/>5 KRX Meso booster face masks<br\/>1 KRX Milk Enzyme cleanser<br\/><br\/>Don't want a kit? You can swap this for a $700 voucher to be redeemed in our PRO store!<\/p><p><\/p><p>Click here to sign me up!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164728753189f627fc-0"
+      ],
+      "settings": {
+        "dropdown": "Online Training - £2999"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1647287531e2b7a788"
   ]
 }
