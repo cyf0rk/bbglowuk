@@ -1,0 +1,59 @@
+{{ 'dropdown-text.css' | asset_url | stylesheet_tag }}
+{{ 'dropdown-text.js' | asset_url | script_tag }}
+
+<div class="dropdown-text">
+  <details class="dropdown-text-container">
+    <summary class="dropdown-text__header">{{section.settings.dropdown}}</summary>
+    {%- for block in section.blocks -%}
+      <div class="dropdown-text__rich-text" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+    {%- endfor -%}
+  </details>
+</div>
+
+{% schema %}
+  {
+    "name": "Dropdown",
+    "tag": "section",
+    "class": "spaced-section",
+    "settings": [
+    {
+      "type": "text",
+      "id": "dropdown",
+      "default": "This is test dropdown",
+      "label": "Dropdown header"
+    }
+    ],
+    "blocks": [
+      {
+        "type": "text",
+        "name": "Text",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "text",
+            "default": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+            "label": "Text"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Dropdown",
+        "blocks": [
+          {
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
+

@@ -4,14 +4,13 @@
   {% if section.blocks.size > 0 %}
     <div class="quotes-wrapper" data-slider>
       <div class="quotes-slider-wrapper" data-slider-container>
-        <div class="quotes-slider" id="Quotes-{{ section.id }}" data-count="{{ section.blocks.size }}" data-slider-track>
+        <div class="quotes-slider" id="Quotes-{{ section.id }}" data-count="{{ section.blocks.size }}" data-slider-track role="listbox">
           {% for block in section.blocks %}
             <div id="slickSlide{{ block.id }}"
-              class="quotes-slide quotes-slide--{{ block.id }}{% if section.blocks.size == 1 %} quotes-slide--single{% endif %}"
-              aria-labelledby="slickDot{{ block.id }}"
+              class="quotes-slide slick-slide{% if section.blocks.size == 1 %} quotes-slide--single{% endif %}"
               {{ block.shopify_attributes }}
-              data-slider-slide-index="{{ forloop.index0 }}"
-              data-slider-item>
+              data-slick-index="{{ forloop.index0 }}"
+              role="option">
 
               <blockquote class="quotes-slider__text text-center">
                 <span class="quote-icon">{% include 'icon-quote' %}</span>
@@ -26,19 +25,6 @@
           {% endfor %}
         </div>
       </div>
-
-      {% if section.blocks.size > 1 %}
-        <ul class="slick-dots{% if section.blocks.size < 4 %} slick-dots--mobile-only{% endif %}" data-slider-indicators>
-          {%- for block in section.blocks -%}
-            <li{% if forloop.first %} class="slick-active"{% endif %} data-slider-indicator>
-              <button id="slickDot{{ block.id }}"
-                aria-label="{{ 'sections.slideshow.load_slide' | t: slide_number: forloop.index }}"
-                data-slide-number="{{ forloop.index0 }}"
-                aria-controls="slickSlide{{ block.id }}"></button>
-            </li>
-          {%- endfor -%}
-        </ul>
-      {% endif %}
     </div>
   {% endif %}
 
@@ -46,7 +32,6 @@
     {% include 'no-blocks' %}
   {% endif %}
 </div>
-
 
 
 {% schema %}
@@ -74,7 +59,8 @@
     "zh-CN": "感言",
     "zh-TW": "推薦文"
   },
-  "class": "index-section",
+  "tag": "section",
+  "class": "index-section spaced-section",
   "max_blocks": 9,
   "settings": [
     {
