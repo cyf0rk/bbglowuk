@@ -441,10 +441,9 @@ h6,
 }
 
 blockquote {
+  padding-left: 1rem;
   font-style: italic;
   color: rgba(var(--color-foreground), 0.75);
-  border-left: 0.2rem solid rgba(var(--color-foreground), 0.2);
-  padding-left: 1rem;
 }
 
 @media screen and (min-width: 750px) {
@@ -1727,7 +1726,7 @@ input[type='checkbox'] {
   z-index: 5;
 }
 
-.modal__toggle-close {
+.header__search .header__icon .modal__toggle-close {
   display: none;
 }
 

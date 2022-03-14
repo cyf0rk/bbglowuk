@@ -4,6 +4,7 @@
 
 .collection {
   position: relative;
+  width: 75%;
 }
 
 @media screen and (max-width: 749px) {
@@ -24,8 +25,18 @@
 }
 
 @media screen and (max-width: 989px) {
+  .collection {
+    width: 90%;
+  }
+
   .collection .slider.slider--tablet {
     margin-bottom: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 749px) {
+  .collection {
+    width: 100%;
   }
 }
 

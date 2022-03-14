@@ -63,6 +63,10 @@ slideshow-component .slideshow.banner {
 }
 
 @media screen and (max-width: 598px) {
+  slideshow-component .slideshow.banner {
+    margin: 0 0 10px;
+  }
+
   .slideshow .slideshow__slide {
     flex-direction: column;
     height: 40vh;
