@@ -5,6 +5,25 @@
       "settings": {
       }
     },
+    "1647899699b3b572c6": {
+      "type": "rich-text",
+      "blocks": {
+        "16478996991cf127bf-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "PRO Store",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "16478996991cf127bf-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "1647899249dd3b1990": {
       "type": "dropdown-text",
       "blocks": {
@@ -54,6 +73,25 @@
       ],
       "settings": {
         "dropdown": "Why is the Pro Store password protected?"
+      }
+    },
+    "1647899726203bb7ff": {
+      "type": "rich-text",
+      "blocks": {
+        "16478997266cf40202-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Training",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "16478997266cf40202-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
       }
     },
     "16478992921131aaf5": {
@@ -114,7 +152,7 @@
           "type": "heading",
           "settings": {
             "heading": "From our customers",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         }
       },
@@ -155,9 +193,11 @@
   },
   "order": [
     "main",
+    "1647899699b3b572c6",
     "1647899249dd3b1990",
     "16478992797d111945",
     "164789928574f8b38b",
+    "1647899726203bb7ff",
     "16478992921131aaf5",
     "1647899360a86c5b2d",
     "164789937972bb9415",
