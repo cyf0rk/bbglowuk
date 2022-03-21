@@ -6,10 +6,10 @@
         "16413812129ed6b349-0": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
+            "heading": "Online Courses",
             "heading_size": "medium",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "Learn BB Glow, KRX & More",
+            "button_label": "View Courses",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-left",
@@ -23,10 +23,10 @@
         "16413812129ed6b349-1": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
+            "heading": "Visit our PRO Store",
             "heading_size": "medium",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "All the BB Glow products you need & more!",
+            "button_label": "Browse",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-right",
