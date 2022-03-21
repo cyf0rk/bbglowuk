@@ -34,8 +34,9 @@
   width: 100%; }
 
 .quotes-slider__text {
-  margin: 0;
+  margin: 0 auto;
   padding: 0 15px;
+  max-width: 560px;
   --font-size-base: 14;
   font-size: calc(((var(--font-size-base) + 1.75) / (var(--font-size-base))) * 1em);
   font-weight: var(--font-weight-body);
