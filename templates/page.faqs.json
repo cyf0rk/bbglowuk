@@ -107,6 +107,25 @@
         "dropdown": "Do you offer Payment plans?"
       }
     },
+    "1647899644a75377f6": {
+      "type": "rich-text",
+      "blocks": {
+        "1647899644a83543a2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "From our customers",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "1647899644a83543a2-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "164789947896701a21": {
       "type": "quotes",
       "blocks": {
@@ -142,6 +161,7 @@
     "16478992921131aaf5",
     "1647899360a86c5b2d",
     "164789937972bb9415",
+    "1647899644a75377f6",
     "164789947896701a21"
   ]
 }
