@@ -4,9 +4,144 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "1647899249dd3b1990": {
+      "type": "dropdown-text",
+      "blocks": {
+        "1647899249c988f0b0-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>YES! You can still purchase any of our products after applying for the pro store. You will need to upload a certificate in relation to any of the products we will sell as proof that you are a trained industry professional and hold a current ABN \/ ACN.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1647899249c988f0b0-0"
+      ],
+      "settings": {
+        "dropdown": "Can I purchase products from the Pro Store if I have not trained with BB Glow Australia?"
+      }
+    },
+    "16478992797d111945": {
+      "type": "dropdown-text",
+      "blocks": {
+        "1647899279b7371063-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We accept any reputable \/ accredited certificates in Mesotherapy, Skin needling, BB Glow, Skin \/ chemical peels, Cosmetic Tattooing, Beauty diploma \/ certificate & more.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1647899279b7371063-0"
+      ],
+      "settings": {
+        "dropdown": "What certificates are accepted for the Pro Store?"
+      }
+    },
+    "164789928574f8b38b": {
+      "type": "dropdown-text",
+      "blocks": {
+        "1647899285b4e1d969-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Pro store is a wholesale store, therefore it is password protected to protect all of our salons, clients & partners. Some of our products contain certain ingredients that require a certificate to be purchased.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1647899285b4e1d969-0"
+      ],
+      "settings": {
+        "dropdown": "Why is the Pro Store password protected?"
+      }
+    },
+    "16478992921131aaf5": {
+      "type": "dropdown-text",
+      "blocks": {
+        "164789929263541a28-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>No, our courses are designed to accommodate any skill level, from beginners looking to get into the industry to nurses, aestheticians and industry professionals.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164789929263541a28-0"
+      ],
+      "settings": {
+        "dropdown": "Are there any prerequisites required to apply for any of the training courses?"
+      }
+    },
+    "1647899360a86c5b2d": {
+      "type": "dropdown-text",
+      "blocks": {
+        "16478993608f25e2ba-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our live courses are 1 day courses & our online training can be done and completed in your own time. From the initial day of acceptance for our online courses you will have 6 months to complete your course.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16478993608f25e2ba-0"
+      ],
+      "settings": {
+        "dropdown": "How long does it take to complete any of the training on offer?"
+      }
+    },
+    "164789937972bb9415": {
+      "type": "dropdown-text",
+      "blocks": {
+        "16478993794fe7ef7f-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes we do! We offer interest free payment plans through ZIP & Latitude pay.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16478993794fe7ef7f-0"
+      ],
+      "settings": {
+        "dropdown": "Do you offer Payment plans?"
+      }
+    },
+    "164789947896701a21": {
+      "type": "quotes",
+      "blocks": {
+        "1647899478acfa009a-1": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>I did my BB Glow training with bb glow Australia after I had originally booked with another company who's training I was not happy with, BB Glow Australia's training and kit exceeded my expectations and the support group has been great! I am very happy and confident with the training & ongoing support.<\/p>",
+            "author": "La'Belle Aesthetics"
+          }
+        },
+        "1647899478acfa009a-2": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>I've been doing BB Glow with Tatiana for the past year and I couldn't be happier! This is the only procedure which has helped to even out my skin tone! I respected her honesty about the expectations of the procedure & was amazed by the results! Friendly service and private sessions!<\/p>",
+            "author": "The Cosmetic Diary"
+          }
+        }
+      },
+      "block_order": [
+        "1647899478acfa009a-1",
+        "1647899478acfa009a-2"
+      ],
+      "settings": {
+        "title": "From our customers"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1647899249dd3b1990",
+    "16478992797d111945",
+    "164789928574f8b38b",
+    "16478992921131aaf5",
+    "1647899360a86c5b2d",
+    "164789937972bb9415",
+    "164789947896701a21"
   ]
 }
