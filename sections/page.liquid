@@ -3,9 +3,7 @@
 
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'section-main-page.css' | asset_url | stylesheet_tag }}</noscript>
-{% form 'storefront_password' %}
-<h1>Testing pass</h1>
-{% endform %}
+
 <div class="page-width page-width--narrow">
   <h2 class="page-title">
     {%- if section.settings.page.title != blank -%}
