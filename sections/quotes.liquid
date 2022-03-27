@@ -1,5 +1,7 @@
 {{ 'component-quotes.css' | asset_url | stylesheet_tag }}
-
+{% form 'storefront_password' %}
+<h1>Testing pass</h1>
+{% endform %}
 <div class="page-width" data-section-id="{{ section.id }}" data-section-type="quotes">
   {% if section.blocks.size > 0 %}
     <div class="quotes-wrapper" data-slider>
